@@ -98,3 +98,7 @@
     translate: 4 -20;
   
  }
+
+ .bordes {
+    border-radius: 3px black;
+ }

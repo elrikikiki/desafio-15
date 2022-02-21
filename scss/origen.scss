@@ -5,7 +5,50 @@
 @import "margenes";
 @import "variables";
 
+//mapa 
 
-/*segunda entrega */
+$mapas:(
+    //clave: valores
+
+    inicio:blanchedalmond,
+    edificio: blue,
+    consultas:burlywood,
+    nosotros:aquamarine,
+    contacto:blueviolet
+);
 
 
+@each $claves, $fondos in $mapas {
+    .fondo-#{$claves} {
+        background-color: $fondos;
+        
+    }
+    
+}
+
+//extend
+.bordes {
+    border-radius: 3px black;
+    background-color: aqua;
+    width: 10%;
+ }
+ .bordes-nuevo 
+ { @extend .bordes;
+    border-radius: 2px;}
+
+//mixin
+@mixin tamanio ($ancho, $alto) 
+{width: $ancho;
+    height: $alto;
+    
+}
+
+.elemento-1 {
+    @include tamanio (5%,3%)
+}
+.elemento-2 {
+    @include tamanio (5%,3%)
+}
+.elemento-3 {
+    @include tamanio (5%,3%)
+}
