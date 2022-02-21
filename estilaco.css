@@ -9,7 +9,7 @@
     transition: all infinite;
  }
  .mouseFooter:hover {
-    background-color: rgb(102, 101, 101);
+    background-color: rgb(41, 38, 38);
   
  }
  .mouseInicio {
@@ -22,7 +22,7 @@
     transition: all infinite;
  }
  .mouseEdificio:hover {
-    background-color: rgb(107, 99, 99);
+    background-color: rgb(75, 60, 60);
     color: white;
   
  }
