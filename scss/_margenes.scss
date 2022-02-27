@@ -1,3 +1,20 @@
+
+//Variables 
+$porcentaje: 2%;
 .marginLogo {
     margin-bottom: 3%;
  }
+ //EDIFICIOS
+
+ .marginTop {
+    margin-top: $porcentaje;
+}
+.marginCostado {
+    margin-left: $porcentaje;
+}
+
+//altura
+$anchura: 30%;
+.alturaNosotros {
+    height: $anchura;
+}

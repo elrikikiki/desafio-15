@@ -90,12 +90,70 @@
   translate: 4 -20;
 }
 
+.transicionHeader {
+  transition: all infinite;
+}
+
+.transicionHeader:hover {
+  color: azure;
+  background-color: #222121;
+}
+
 .cursiva {
   font-style: italic;
 }
 
+.colorLetra {
+  color: #965845;
+}
+
+.colorRojo {
+  color: red;
+}
+
+.colorCeleste {
+  color: #1281db;
+}
+
+.colorAzul {
+  color: #1616b8;
+}
+
 .marginLogo {
   margin-bottom: 3%;
+}
+
+.marginTop {
+  margin-top: 2%;
+}
+
+.marginCostado {
+  margin-left: 2%;
+}
+
+.alturaNosotros {
+  height: 30%;
+}
+
+.backi {
+  background-color: rgba(209, 209, 209, 0.65);
+}
+
+.back {
+  background-color: #d1d1d1;
+}
+
+.back {
+  background-color: bisque;
+}
+
+.textoNegro {
+  height: 38%;
+  background-color: rgba(63, 55, 55, 0.65);
+}
+
+.imagen {
+  background-image: url(./fotito.jpg);
 }
 
 .fondo-inicio {
@@ -141,69 +199,6 @@
 .elemento-3 {
   width: 5%;
   height: 3%;
-}
-
-/* EDIFICIOS, DOCUMENTACION Y NOSOTROS LO NUEVO */
-.marginTop {
-  margin-top: 2%;
-}
-
-.textoNegro {
-  height: 38%;
-  background-color: rgba(63, 55, 55, 0.65);
-}
-
-.colorLetra {
-  color: #965845;
-}
-
-.colorRojo {
-  color: red;
-}
-
-.colorCeleste {
-  color: #1281db;
-}
-
-.colorAzul {
-  color: #1616b8;
-}
-
-.cursiva {
-  font-style: italic;
-}
-
-.back {
-  background-color: bisque;
-}
-
-.alturaNosotros {
-  height: 30%;
-}
-
-.imagen {
-  background-image: url(./fotito.jpg);
-}
-
-.backi {
-  background-color: rgba(209, 209, 209, 0.65);
-}
-
-.transicionHeader {
-  transition: all infinite;
-}
-
-.transicionHeader:hover {
-  color: azure;
-  background-color: #222121;
-}
-
-.marginCostado {
-  margin-left: 2%;
-}
-
-.back {
-  background-color: #d1d1d1;
 }
 
 /*# sourceMappingURL=destino.css.map */
