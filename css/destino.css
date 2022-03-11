@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes titulo {
   from {
     transform: translate(-200px);
@@ -119,6 +120,10 @@
   color: #1616b8;
 }
 
+.colorBlanco {
+  color: white;
+}
+
 .marginLogo {
   margin-bottom: 3%;
 }
@@ -143,7 +148,7 @@
   background-color: #d1d1d1;
 }
 
-.back {
+.backDos {
   background-color: bisque;
 }
 
@@ -199,6 +204,31 @@
 .elemento-3 {
   width: 5%;
   height: 3%;
+}
+
+.marginNuevo {
+  padding-top: 2%;
+}
+
+.letraTamaño {
+  font-size: 100%;
+}
+
+.fuente {
+  font-family: "Syne Mono", monospace;
+}
+
+.imagen {
+  background-image: url(../asset/imagenn.jpg);
+}
+
+.imagenDos {
+  background-image: url(../asset/imagen2.png);
+}
+
+.opaco {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100vh;
 }
 
 /*# sourceMappingURL=destino.css.map */

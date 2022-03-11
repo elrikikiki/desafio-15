@@ -55,8 +55,24 @@ $mapas:(
 }
 
 // nuevo
-
-
+.marginNuevo {
+    padding-top: 2%;
+}
+.letraTamaño {
+    font-size: 100%;
+}
+.fuente {
+    font-family: 'Syne Mono', monospace;}
+.imagen {
+    background-image: url(../asset/imagenn.jpg);
+}
+.imagenDos {
+    background-image: url(../asset/imagen2.png);
+}
+.opaco {
+    background-color: rgba(black, 0.75);
+    width: 100vh;
+}
 
 
 
