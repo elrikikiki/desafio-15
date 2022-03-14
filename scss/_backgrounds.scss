@@ -3,7 +3,9 @@ $opacidadUno: rgba(209, 209, 209, 0.65);
 .backi {
     background-color: $opacidadUno;
 }
-
+.opaco {
+    background-color: rgba(black, 0.75);
+}
 
 //fondos
 $fondoColorUno: rgb(209, 209, 209);
@@ -21,4 +23,15 @@ $fondoColorDos: bisque;
 //con imagen
 .imagen {
     background-image: url(./fotito.jpg);
+}
+.imagen {
+    background-image: url(../asset/imagenn.jpg);
+}
+.imagenDos {
+    height: 100%;
+    background-image: url(../asset/imagen2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }

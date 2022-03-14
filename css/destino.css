@@ -104,6 +104,14 @@
   font-style: italic;
 }
 
+.letraTamaño {
+  font-size: 100%;
+}
+
+.fuente {
+  font-family: "Syne Mono", monospace;
+}
+
 .colorLetra {
   color: #965845;
 }
@@ -140,8 +148,16 @@
   height: 30%;
 }
 
+.marginNuevo {
+  padding-top: 2%;
+}
+
 .backi {
   background-color: rgba(209, 209, 209, 0.65);
+}
+
+.opaco {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .back {
@@ -161,74 +177,17 @@
   background-image: url(./fotito.jpg);
 }
 
-.fondo-inicio {
-  background-color: blanchedalmond;
-}
-
-.fondo-edificio {
-  background-color: blue;
-}
-
-.fondo-consultas {
-  background-color: burlywood;
-}
-
-.fondo-nosotros {
-  background-color: aquamarine;
-}
-
-.fondo-contacto {
-  background-color: blueviolet;
-}
-
-.bordes, .bordes-nuevo {
-  border-radius: 3px black;
-  background-color: aqua;
-  width: 10%;
-}
-
-.bordes-nuevo {
-  border-radius: 2px;
-}
-
-.elemento-1 {
-  width: 5%;
-  height: 3%;
-}
-
-.elemento-2 {
-  width: 5%;
-  height: 3%;
-}
-
-.elemento-3 {
-  width: 5%;
-  height: 3%;
-}
-
-.marginNuevo {
-  padding-top: 2%;
-}
-
-.letraTamaño {
-  font-size: 100%;
-}
-
-.fuente {
-  font-family: "Syne Mono", monospace;
-}
-
 .imagen {
   background-image: url(../asset/imagenn.jpg);
 }
 
 .imagenDos {
+  height: 100%;
   background-image: url(../asset/imagen2.png);
-}
-
-.opaco {
-  background-color: rgba(0, 0, 0, 0.75);
-  width: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=destino.css.map */
